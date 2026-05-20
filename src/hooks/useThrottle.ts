@@ -1,4 +1,5 @@
 import { useRef } from "react";
+
 export function useThrottle() {
   const timerRef = useRef(null);
   const throttle = (func: () => void, ms: number) => {
@@ -8,5 +9,5 @@ export function useThrottle() {
       timerRef.current = null;
     }, ms);
   };
-  return throttle;
+  return { throttle };
 }

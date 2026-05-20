@@ -4,6 +4,7 @@ import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
 import RespondingToEvents from "./components/RespondingToEvents";
+import Throttle from "./components/Throttle";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <section id="center">
         <h2>進捗</h2>
         <h3>UIの記述</h3>
+        <Throttle />
         <RespondingToEvents />
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />

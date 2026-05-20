@@ -1,4 +1,5 @@
 import { useRef } from "react";
+
 export function useDebounce() {
   const timerRef = useRef(null);
   const debounce = (func: () => void, ms: number) => {
