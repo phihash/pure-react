@@ -1,7 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
 import "./App.css";
 import RespondingToEvents from "./components/RespondingToEvents";
 import Throttle from "./components/Throttle";
@@ -23,7 +22,7 @@ function App() {
               </p>
             </details>
           </li>
-          <li>コンポーネントのインポートとエクスポート</li>
+          <li>コンポーネントのインポートとエクスポート✅</li>
           <li>JSX でマークアップを記述する</li>
           <li>JSX に波括弧で JavaScript を含める</li>
           <li>コンポーネントに props を渡す</li>
