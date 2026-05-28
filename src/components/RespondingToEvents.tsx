@@ -3,7 +3,7 @@ export default function RespondingToEvents() {
     <>
       <button
         onClick={() => {
-          alert("イベント");
+          alert('イベント');
         }}
       >
         イベントハンドラ用のボタン

@@ -1,4 +1,4 @@
-import { useThrottle } from "../hooks/useThrottle";
+import { useThrottle } from '../hooks/useThrottle';
 
 export default function Throttle() {
   const { throttle } = useThrottle();
@@ -6,7 +6,7 @@ export default function Throttle() {
     <>
       <button
         onClick={() => {
-          alert("スロットがないです");
+          alert('スロットがないです');
         }}
       >
         スロットなしボタン
@@ -14,7 +14,7 @@ export default function Throttle() {
       <button
         onClick={() => {
           throttle(() => {
-            alert("スロットあり");
+            alert('スロットあり');
           }, 4000);
         }}
       >

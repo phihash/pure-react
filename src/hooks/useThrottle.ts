@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef } from 'react';
 
 export function useThrottle() {
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);

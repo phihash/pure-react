@@ -1,4 +1,4 @@
-import { useDebounce } from "../hooks/useDebounce";
+import { useDebounce } from '../hooks/useDebounce';
 export default function Debounce() {
   const { debounce: _debounce } = useDebounce();
 
