@@ -4,15 +4,18 @@ import viteLogo from "./assets/vite.svg";
 import "./App.css";
 import RespondingToEvents from "./components/RespondingToEvents";
 import Throttle from "./components/Throttle";
+import ProgressBarUI from "./components/ProgressBarUI";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+    <ProgressBarUI />
       <section id="center">
         <h2>進捗</h2>
         <p>内容的に、コンポーネント→インポート→JSX→JSXにJSを含める話</p>
+        <p></p>
         <p>
           Reactは、アプリのUIを再利用しやすいようにコンポーネントを作成できる。
           Reactコンポーネントとは、マークアップ(のようなもの)を添えられるJavaScript関数である。
